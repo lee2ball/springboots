@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TestController {
     @ResponseBody
-    @RequestMapping(path="/testlee")
+    @RequestMapping(path="/helloworld")
     public String testLee(){
-        return "hello april";
+        return "hello world";
     }
 
 }
